@@ -1,0 +1,120 @@
+#Crear una matriz 3D para almacenar datos de temperatura
+#Primera_dimension: Ciudades (3 Ciudades)
+#Segunda_dimension: Semanas (4 Semanas)
+#Tercera_dimension: Dias de la semana (7 dias)
+Temperaturas = [
+    [   # Ciudad 1
+        [   # semana 1
+            {"day": "Lunes","temp": 78},
+            {"day": "Martes","temp": 80},
+            {"day": "Miercoles","temp": 82},
+            {"day": "Jueves","temp": 79},
+            {"day": "Viernes","temp": 85},
+            {"day": "sabado","temp": 88},
+            {"day": "Domingo","temp": 92},
+        ],
+        [   # semana 2
+            {'day': "Lunes","temp": 76},
+            {'day': "Martes","temp": 79},
+            {'day': "Miercoles","temp": 83},
+            {'day': "Jueves","temp": 81},
+            {'day': "Viernes","temp": 87},
+            {'day': "Sabado","temp": 89},
+            {'day': "Domingo","temp": 93},
+        ],
+        [   # semana 3
+            {'day': "Lunes","temp": 77},
+            {'day': "Martes","temp": 81},
+            {'day': "Miercoles","temp": 85},
+            {'day': "Jueves","temp": 82},
+            {'day': "Viernes","temp": 88},
+            {'day': "Sabado","temp": 91},
+            {'day': "Domingo","temp": 95},
+       ],
+
+       [    # semana 4
+            {'day': "Lunes","temp": 75},
+            {'day': "Martes","temp": 78},
+            {'day': "Miercoles","temp": 80},
+            {'day': "Jueves","temp": 79},
+            {'day': "Viernes","temp": 84},
+            {'day': "Sabado","temp": 87},
+            {'day':"Domingo","temp": 91},
+        ]
+    ],
+    [  # Ciudad 2
+      [    # semana 1
+           {'day': "Lunes","temp": 62},
+           {'day': "Martes","temp": 64},
+           {'day': "Miercoles","temp": 68},
+           {'day': "Juves","temp": 70},
+           {'day': "Viernes","temp": 73},
+           {'day': "Sabado","temp": 75},
+           {'day': "Domingo","temp": 79},
+     ],
+     [     # semana 2
+           {'day': "Lunes","temp": 63},
+           {'day': "Martes","temp": 66},
+           {'day': "Miercoles","temp": 70},
+           {'day': "Jueves","temp": 72},
+           {'day': "Viernes","temp": 75},
+           {'day': "Sabado","temp": 77},
+           {'day': "Domingo","temp": 81},
+     ],
+     [      # semana 3
+           {'day': "Lunes","temp": 61},
+           {'day': "Martes","temp": 65},
+           {'day': "Miercoles","temp": 68},
+           {'day': "Jueves","temp": 70},
+           {'day': "Viernes","temp": 72},
+           {'day': "Sabado","temp": 76},
+           {'day': "Domingo","temp": 80},
+    ],
+     [     # semana 4
+           {'day': "Lunes","temp": 64},
+           {'day': "Martes","temp": 67},
+           {'day': "Miercoles","temp": 69},
+           {'day': "Jueves","temp": 71},
+           {'day': "Viernes","temp": 74},
+           {'day': "Sabado","temp": 77},
+           {'day': "Domingo","temp": 80},
+  ],
+  [   # Ciudad 3
+          [ # semana 1
+          {'day': "Lunes","temp": 90},
+          {'day': "Martes","temp": 92},
+          {'day': "Miercoles","temp": 94},
+          {'day': "Jueves","temp": 91},
+          {'day': "Viernes","temp": 88},
+          {'day': "Sabado","temp": 85},
+          {'day': "Domingo","temp": 82},
+     ],
+     [    # semana 2
+          {'day': "Lunes","temp": 89},
+          {'day': "Martes","temp": 91},
+          {'day': "Miercoles","temp": 93},
+          {'day': "Jueves","temp": 90},
+          {'day': "Viernes","temp": 87},
+          {'day': "Sabado","temp": 84},
+          {'day': "Domingo","temp": 81},
+    ],
+    [     # semana 3
+         {'day': "Lunes","temp": 91},
+         {'day': "Martes","temp": 93},
+         {'day': "Miercoles","temp": 95},
+         {'day': "Jueves","temp": 92},
+         {'day': "Viernes","temp": 89},
+         {'day': "Sabado","temp": 86},
+         {'day': "Domingo","temp": 83},
+   ],
+   [     # semana 4
+         {'day':"Lunes","temp": 88},
+         {'day':"Martes","temp": 90},
+         {'day':"Miercoles","temp": 92},
+         {'day':"Jueves","temp": 89},
+         {'day':"Viernes","temp": 86},
+         {'day':"Sabado","temp": 83},
+         {'day':"Domingo","temp": 80},
+    ]
+  ]
+ ]
